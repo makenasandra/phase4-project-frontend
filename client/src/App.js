@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Route, Router, Routes } from "react-router-dom";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import ls from "local-storage";
 
 import "./App.css";
@@ -18,40 +18,18 @@ function App() {
 
   return (
     <div>
-      <h1>Hello</h1>
       <Router>
-        <ul>
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-          <li>
-            <Link to="/signup">SignUp</Link>
-          </li>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          l
-        </ul>
         <Routes>
           <Route exact path="/login" element={<LogIn />}></Route>
           <Route exact path="/signup" element={<SignUp />}></Route>
           <Route exact path="/" element={<Example />}></Route>
-          {/* <Route path="*">
+          <Route path="*">
             <h1>404 not found</h1>
-        </Route> */}
+        </Route>
         </Routes>
       </Router>
     </div>
 
-    // <Routes>
-    //   <Route
-    //     path="/"
-    //     element={<Example />}
-    //   >
-    //   </Route>
-    //   <Route path="/login" element={<LogIn onLogIn={onLogIn} />} />
-    // <Route path="/signup" element={<SignUp />} />
-    // </Routes>
   );
 }
 
