@@ -1,0 +1,23 @@
+/* Customize styles based on your design preferences */
+
+.footer {
+  background-color: #88B2C4;
+  color: #3b3535;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer p {
+  margin: 0;
+  color: rgb(54, 47, 47);
+}
+
+/* Add more styles as needed */

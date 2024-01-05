@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import Logo from "../assets/Logo.png";
 import Swal from "sweetalert2";
 
@@ -61,7 +61,7 @@ export default function SignUp({ formdata }) {
       {/* <img className="logo" alt="logo" src={Logo} /> */}
       <div className="form-dialogue">
         <form onSubmit={handleSubmit}>
-          <h2>Welcome to Our App!</h2>
+          <h2>Sign Up</h2>
           <div className="form-item">
             <label htmlFor="firstname"> First Name:</label>
             <input
@@ -83,7 +83,7 @@ export default function SignUp({ formdata }) {
             />
           </div>
           <div className="form-item">
-            <label htmlFor="email"> Email:</label>
+            <label htmlFor="email"> Email Address:</label>
             <input
               type="email"
               id="email"
@@ -92,9 +92,9 @@ export default function SignUp({ formdata }) {
             />
           </div>
           <div className="form-item">
-            <label htmlFor="address"> Physical Address:</label>
+            <label htmlFor="address"> Phone Number:</label>
             <input
-              type="text"
+              type="number"
               vfsed
               id="address"
               value={formData.address}
@@ -114,6 +114,7 @@ export default function SignUp({ formdata }) {
           <button className="login-btn" type="submit">
             Sign Up
           </button>
+          <Link to={'/login'} className="signup-btn">Sign In</Link>
         </form>
       </div>
     </div>

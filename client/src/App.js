@@ -7,6 +7,7 @@ import LogIn from "./components/Login";
 import SignUp from "./components/SignUp";
 import HomePage from "./components/Home";
 import ProgramsPage from "./components/ProgramsPage";
+import TutoringPage from "./components/TutoringPage";
 import PageNotFound from "./components/PageNotFound";
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
           <Route exact path="/login" element={<LogIn />}></Route>
           <Route exact path="/signup" element={<SignUp />}></Route>
           <Route exact path="/programs" element={<ProgramsPage />}></Route>
-          <Route exact path="/tutors" element={<SignUp />}></Route>
-          <Route exact path="/about" element={<SignUp />}></Route>
+          <Route exact path="/tutors" element={<TutoringPage />}></Route>
+          <Route exact path="/about" element={<HomePage />}></Route>
           <Route exact path="/" element={<HomePage />}></Route>
           <Route exact path="*" element={<PageNotFound />}></Route>
         </Routes>

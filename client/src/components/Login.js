@@ -51,9 +51,9 @@ export default function LogIn({ onLogIn }) {
       {/* <img className="logo" alt="logo" src={Logo} /> */}
       <div className="form-dialogue">
         <form onSubmit={handleSubmit}>
-          <h2>Welcome Back</h2>
+          <h2>Sign In</h2>
           <div className="form-item">
-            <label className="username">Username:</label>
+            <label className="username">Email Address:</label>
             <input
               type="text"
               name="username"
@@ -71,7 +71,7 @@ export default function LogIn({ onLogIn }) {
             />
           </div>
           <button className="login-btn" type="submit">
-            Log In
+            Sign In
           </button>
           <Link to={'/signup'} className="signup-btn">Sign Up</Link>
         </form>

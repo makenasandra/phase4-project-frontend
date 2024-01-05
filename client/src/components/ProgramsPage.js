@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar"; // Assuming you have a NavBar component
 import ProgramCard from "./ProgramCard";
+import Footer from "./Footer";
 import image from "../assets/welcome.jpg";
 
 import "../css/HomePage.css";
@@ -27,7 +28,7 @@ const HomePage = () => {
       {programs.map((program, index)=> {
         return(<ProgramCard key={index} program={program} />)
       })}
-      
+      <Footer/>
     </div>
   );
 };
