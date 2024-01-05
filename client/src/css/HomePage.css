@@ -1,0 +1,64 @@
+/* Customize styles based on your design preferences */
+
+.home-container {
+    max-width: 100%; /* Example maximum width for the content */
+    margin: auto; /* Center the content horizontally */
+  }
+  
+  .welcome-section {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  
+  .welcome-section h2 {
+    font-size: 30px;
+    color: #333; /* Example text color */
+    text-align: left;
+    margin-left: 0;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    color: #666; /* Example text color */
+    margin-top: 10px;
+    text-align: justify; /* Justify the text */
+    margin-right: 0; /* Ensure no right margin */
+  }
+
+  .content-container {
+    max-width: auto;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    padding: 30px;
+  }
+  
+  .welcome-image {
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin-right: 20px; /* Adjust the margin between the image and text */
+    
+  }
+  
+  .welcome-text {
+    max-width: 900px; /* Adjust the maximum width of the paragraph */
+    font-size: 18px;
+    color: #333;
+  }
+  
+
+  .featured-products{
+    padding: 6vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    height: auto;
+    border: #292828;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2.4rem #29292934;
+    background-color: #D9D9D9
+  }
+  

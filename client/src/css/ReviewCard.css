@@ -1,0 +1,59 @@
+/* Customize styles based on your design preferences */
+
+.review-section {
+  max-width: 1550px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.review-cards {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+}
+
+.review-card {
+  flex: 0 0 auto;
+  width: 500px; /* Adjust the width of each card */
+  height: 400px;
+  margin-right: 10px; /* Adjust the spacing between cards */
+  margin-bottom: 7px;
+  scroll-snap-align: start;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  color: #333;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #3498db;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}

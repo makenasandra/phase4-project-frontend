@@ -1,0 +1,21 @@
+.program-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    padding: 30px;
+  }
+  
+  .program-image {
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin-right: 20px; /* Adjust the margin between the image and text */
+    
+  }
+  
+  .program-text {
+    max-width: 900px; /* Adjust the maximum width of the paragraph */
+    font-size: 18px;
+    color: #333;
+  }
