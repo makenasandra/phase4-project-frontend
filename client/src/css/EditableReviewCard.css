@@ -1,0 +1,53 @@
+/* Customize styles based on your design preferences */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+  }
+  
+  .card-content {
+    width: 100%;
+    height: 100px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .editable {
+    background-color: #f9f9f9;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-button,
+  .save-button,
+  .delete-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .save-button {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
