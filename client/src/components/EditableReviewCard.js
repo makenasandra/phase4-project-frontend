@@ -12,7 +12,7 @@ const Card = ({ id, content, onDelete }) => {
   const handleSaveClick = (newContent) => {
     setEditable(false);
     console.log(newContent)
-    reviews[id-1].comment = 
+    // reviews[id-1].comment = 
     // Perform save operation (e.g., update content in the database)
   };
 
@@ -35,7 +35,7 @@ const Card = ({ id, content, onDelete }) => {
       />
       <div className="button-container">
         {editable ? (
-          <button className="save-button" onClick={handleSaveClick(editedContent)}>
+          <button className="save-button" onClick={handleSaveClick}>
             Save
           </button>
         ) : (
